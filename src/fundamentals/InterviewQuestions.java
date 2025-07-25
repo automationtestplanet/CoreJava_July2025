@@ -183,6 +183,21 @@ public class InterviewQuestions {
 		}
 		System.out.println(number + " Reverse Number : " + revNum);
 	}
+	
+	// String Palindrome -> java : avaj(not palindrome), abccba : abccba
+	public static void checkPalindrome(String str) { // java
+		String revStr = "";		
+		for(char eachChar : str.toCharArray()) {   // avaj
+			revStr = eachChar + revStr;
+		}		
+		
+		if(revStr.equals(str)) {
+			System.out.println(str+ " is a Palindorme");
+		}else {
+			System.out.println(str+ " is not a Palindorme");
+		}
+		
+	}
 
 	public static void main(String[] args) {
 //		swapVariables(100, 200);
@@ -206,7 +221,11 @@ public class InterviewQuestions {
 		// Reverse Number -> 123 : 321
 		reverseNumber(123);
 		reverseNumber(100);
+		
 		// String Palindrome -> java : avaj(not palindrome), abccba : abccba
+		checkPalindrome("malayalam");
+		
+		
 		// Number Palindrome -> 123 : 321(not palindrome), 121 : 121
 		// check number prime or not (it can divide by 1 or itself)
 		// 1, 2, 3, 5, 7, 11, 13, 17, 19,
