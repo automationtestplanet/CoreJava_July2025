@@ -4,7 +4,7 @@ public class InterviewQuestions {
 
 	public static void main(String[] args) {
 
-		// sort the number -> 25341 : 12345
+		
 
 		// sort the string -> java : aajv
 
