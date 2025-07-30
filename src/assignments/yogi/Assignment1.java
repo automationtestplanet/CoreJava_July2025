@@ -1,6 +1,6 @@
 package assignments.yogi;
 
-public class Assignment01 {
+public class Assignment1 {
 	public static void printEvennumbers(int startRange, int endRange) {
 		
 		for(int i = startRange; i <= endRange; i++) {
