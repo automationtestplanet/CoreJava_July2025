@@ -6,9 +6,9 @@ public class InterviewQuestions {
 
 		
 
-		// sort the string -> java : aajv
+		
 
-		// Check two string anagrams or not
+		
 
 		// aabbbccccddddd -> a2b3c4d5
 
