@@ -9,8 +9,7 @@ public class Assignment3 {
 	{
 		char tempChar = ' ';
 		char tempChar1 = ' ';
-		String str1 = " ";
-		String str2 = " ";
+
 		if (firstString.length() != secondString.length()) {
 			System.out.println("Given strings are not anagrams");
 		} else {
@@ -26,31 +25,24 @@ public class Assignment3 {
 						chars1[j] = tempChar;
 
 					}
-				}
-			}
-
-			for (int k = 0; k < chars2.length; k++) {
-				for (int l = k + 1; l < chars2.length; l++) {
-					if (chars2[k] > chars2[l]) {
-						tempChar1 = chars2[k];
-						chars2[k] = chars2[l];
-						chars2[l] = tempChar1;
+					if (chars2[i] > chars2[j]) {
+						tempChar1 = chars2[i];
+						chars2[i] = chars2[j];
+						chars2[j] = tempChar1;
 
 					}
 				}
 
 			}
-			
 
-			for (int m = 0; m <= chars1.length-1; m++) {
-				str1 = str1 + chars1[m];
-			}
-			for (int n = 0; n <= chars2.length-1; n++) {
-				str2 = str2 + chars2[n];
-			}
+			String str1 = String.copyValueOf(chars1);
+
+			String str2 = String.copyValueOf(chars2);
 
 			if (str1.equals(str2))
 				System.out.println("Given strings are anagram");
+			else
+				System.out.println("Given strings are not anagrams");
 		}
 	}
 
