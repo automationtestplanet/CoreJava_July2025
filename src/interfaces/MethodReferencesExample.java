@@ -1,6 +1,6 @@
 package interfaces;
 
-public class ArithematicOperations {
+public class MethodReferencesExample {
 
 	int subtraction(int a, int b) {
 		return a - b;
@@ -19,13 +19,13 @@ public class ArithematicOperations {
 	}
 
 	public static void main(String[] args) {
-		FunctionalInterface4 inf4 = ArithematicOperations::modDivision;
+		FunctionalInterface4 inf4 = MethodReferencesExample::modDivision;
 		System.out.println(inf4.sum(10, 3));
 
-		FunctionalInterface5 fun5 = ArithematicOperations::addition;
+		FunctionalInterface5 fun5 = MethodReferencesExample::addition;
 		fun5.multiplication(10, 20);
 
-		ArithematicOperations arOp = new ArithematicOperations();
+		MethodReferencesExample arOp = new MethodReferencesExample();
 
 		FunctionalInterface4 inf4_4 = arOp::subtraction;
 		System.out.println(inf4_4.sum(10, 3));

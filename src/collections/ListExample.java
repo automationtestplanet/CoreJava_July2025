@@ -25,6 +25,9 @@ public class ListExample {
 		System.out.println(arrayList);
 
 		System.out.println(arrayList.get(2));
+		
+		
+		
 
 		System.out.println("----------------LinkedList-------------");
 		List linkedList = new LinkedList();
