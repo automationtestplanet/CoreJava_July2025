@@ -34,7 +34,6 @@ public class StreamsExample {
 				System.out.println(eachNum);
 		}
 		
-		
 		System.out.println("-----------------Print Even Numbers using Stream Filter--------------");
 //		Predicate<Integer> predicate3 = (val1)->val1%2==0;
 		list1.stream().filter(val1->val1%2==0).forEach(System.out::println);
