@@ -6,5 +6,16 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="JarFiles/bundle-jars.jar"/>
+	<classpathentry kind="lib" path="JarFiles/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="JarFiles/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jcip-annotations-1.0.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jxl-2.6.3.jar"/>
+	<classpathentry kind="lib" path="JarFiles/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="JarFiles/poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="JarFiles/poi-ooxml-schemas-3.9 (1).jar"/>
+	<classpathentry kind="lib" path="JarFiles/snakeyaml-1.19.jar"/>
+	<classpathentry kind="lib" path="JarFiles/xmlbeans-2.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
